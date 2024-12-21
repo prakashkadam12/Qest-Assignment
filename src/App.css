@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.first {
+  width: 315px;
+  height: 244px;
+  top: 274px;
+  left: 219px;
+  border-radius: 8px;
+  border: 1px;
+}
+
+.second {
+  width: 315px;
+  height: 205px;
+}
+
+.third {
+  width: 315;
+  height: 244;
+}
+
+.fourth {
+  width: 315px;
+  height: 476px;
+}
+
+.fifth {
+  width: 315px;
+  height: 282px;
+  
+}
+
+.sixth {
+  width: 315px;
+  height: 476px;
+  
+  
+}
+
+.seventh {
+  width: 315px;
+  height: 205px;
+  grid-column: 2;
+  margin-top: -200px;
+
+}
+
+/* Apply Urbanist font globally */
+body {
+  @apply font-roboto;
+}
+
+/* Apply Roboto font for headers */
+h1, h2, h3 {
+  @apply font-urbanist;
+}
